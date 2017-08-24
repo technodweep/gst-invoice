@@ -58,7 +58,10 @@ c:/windows/drivers/etc/hosts
 ~~~
 127.0.0.1   gstinvoice.udev.com
 ~~~
-
+You should be able to visit the site at the following url after you restart Apache
+~~~
+http://gstinvoice.udev.com
+~~~
 
 CONFIGURATION
 -------------
