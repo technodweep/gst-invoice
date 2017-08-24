@@ -1,23 +1,6 @@
 GST Invoice billing software
 ============================
 
-DIRECTORY STRUCTURE
--------------------
-
-      assets/             contains assets definition
-      commands/           contains console commands (controllers)
-      config/             contains application configurations
-      controllers/        contains Web controller classes
-      mail/               contains view files for e-mails
-      models/             contains model classes
-      runtime/            contains files generated during runtime
-      tests/              contains various tests for the basic application
-      vendor/             contains dependent 3rd-party packages
-      views/              contains view files for the Web application
-      web/                contains the entry script and Web resources
-
-
-
 REQUIREMENTS
 ------------
 
@@ -32,20 +15,49 @@ INSTALLATION
 If you do not have [Composer](http://getcomposer.org/), you may install it by following the instructions
 at [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
 
-You can then install this project template using the following command:
+You can then install the following command inside the project directory:
 
 ~~~
 php composer.phar global require "fxp/composer-asset-plugin:^1.3.1"
 php composer.phar install
 ~~~
 
-Now you should be able to access the application through the following URL, assuming `basic` is the directory
-directly under the Web root.
+Create a virtual host like this assuming you are using xampp at location
+~~~
+C:\xampp\apache\conf\extra\httpd-vhosts
+~~~
 
 ~~~
-http://localhost/basic/web/
+<VirtualHost *:80>
+  ServerAdmin webmaster@localhost
+  DocumentRoot C:/xampp/htdocs/basic/web
+  ServerName gstinvoice.udev.com
+
+  <Directory "C:/xampp/htdocs/basic/web">
+    # use mod_rewrite for pretty URL support
+    RewriteEngine on
+    # If a directory or a file exists, use the request directly
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    # Otherwise forward the request to index.php
+    RewriteRule . index.php
+
+    # ...other settings...
+    Options Indexes FollowSymLinks Includes ExecCGI
+    AllowOverride All
+    Order allow,deny
+    Allow from all
+  </Directory>
+</VirtualHost>
 ~~~
-It is recommended that you create a virtual host instad of using localhost
+
+The project directory in this case will be C:/xampp/htdocs/basic/
+
+Also add the domain gstinvoice.udev.com at 
+c:/windows/drivers/etc/hosts
+~~~
+127.0.0.1   gstinvoice.udev.com
+~~~
 
 
 CONFIGURATION
