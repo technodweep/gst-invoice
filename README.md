@@ -84,7 +84,7 @@ return [
 - The program won't create the database for you, this has to be done manually before you can access it.
 
 This project is built using PHP/Mysql and Yii2 framework.
-It will be a good for somebody looking for a really simple Invicing system.
+It will be a good for somebody looking for a really simple Invoicing system.
 If you are new to PHP you will need to set up the environment
 You can use Xampp
 https://www.apachefriends.org/index.html
