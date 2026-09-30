@@ -13,11 +13,11 @@ InvoiceGST Pro is the desktop edition from Technodweep, the creator of this proj
 
 **Free for 30 days. No card required. Then ₹2,499 once for a lifetime desktop license. No monthly subscription.**
 
-[![Download InvoiceGST Pro — Start your 30-day free trial](https://img.shields.io/badge/Download_InvoiceGST_Pro-30--day_free_trial-2563eb?style=for-the-badge)](https://invoicegstpro.technodweep.com/#download)
+[![Get InvoiceGST Pro for Windows from Microsoft Store](https://img.shields.io/badge/Get_InvoiceGST_Pro_for_Windows-Microsoft_Store-2563eb?style=for-the-badge)](https://apps.microsoft.com/detail/9pmx77lrjd8m?hl=en-US&gl=IN)
 
-**[Download the free trial →](https://invoicegstpro.technodweep.com/#download)** · [See the app in action](https://invoicegstpro.technodweep.com/#screenshots) · [View pricing](https://invoicegstpro.technodweep.com/#pricing)
+**[Get the Windows app from Microsoft Store](https://apps.microsoft.com/detail/9pmx77lrjd8m?hl=en-US&gl=IN)** · [Download for Linux](https://invoicegstpro.technodweep.com/#download) · [See the app in action](https://invoicegstpro.technodweep.com/#screenshots) · [View pricing](https://invoicegstpro.technodweep.com/#pricing)
 
-Available for **Windows and Linux**. The download page offers the installer for your platform.
+Available for **Windows and Linux**. Get the signed Windows app from Microsoft Store; Linux downloads are on the InvoiceGST Pro website.
 
 ### More of your daily work, in one place
 
@@ -32,7 +32,7 @@ Available for **Windows and Linux**. The download page offers the installer for 
 
 ### Try it with your own business
 
-1. **[Download InvoiceGST Pro](https://invoicegstpro.technodweep.com/#download)** and install it. Your 30-day trial starts on first launch.
+1. **[Get InvoiceGST Pro for Windows from Microsoft Store](https://apps.microsoft.com/detail/9pmx77lrjd8m?hl=en-US&gl=IN)** or **[download it for Linux](https://invoicegstpro.technodweep.com/#download)** and install it. Your 30-day trial starts on first launch.
 2. **Add your business, customers and products.** Create your first invoice, try the PDF layouts and explore stock and payment tracking.
 3. **Keep using it for ₹2,499 once.** [Buy a lifetime license](https://invoicegstpro.technodweep.com/buy/) when you are ready and activate it with the key delivered by email.
 
@@ -48,7 +48,7 @@ You get the complete app during the trial. After 30 days, you can still view you
 | Setup | Configure PHP, MySQL and a web server | Download and install on Windows or Linux |
 | Workflow | Simple GST invoicing with source code you can modify | Billing, purchases, inventory, ledgers and reports in one app |
 | Price | Free and open source under the [MIT license](LICENSE) | Free for 30 days, then ₹2,499 for a lifetime license |
-| Get started | [Open-source installation](#open-source-installation) | [Download Pro free for 30 days](https://invoicegstpro.technodweep.com/#download) |
+| Get started | [Open-source installation](#open-source-installation) | [Windows: Microsoft Store](https://apps.microsoft.com/detail/9pmx77lrjd8m?hl=en-US&gl=IN) / [Linux: download](https://invoicegstpro.technodweep.com/#download) |
 
 **This repository remains free and open source.** Pro is a separate desktop product with its own license. You can continue using and contributing to this PHP project without purchasing Pro.
 
@@ -142,4 +142,4 @@ Found a bug or have an improvement for the open-source edition? [Open an issue](
 - [InvoiceGST Pro support](https://invoicegstpro.technodweep.com/support/)
 - Paid support and custom web development: [kuriensandeep@gmail.com](mailto:kuriensandeep@gmail.com)
 
-**Ready to try Pro? [Download your free 30-day trial →](https://invoicegstpro.technodweep.com/#download)**
+**Ready to try Pro? [Get the Windows app from Microsoft Store](https://apps.microsoft.com/detail/9pmx77lrjd8m?hl=en-US&gl=IN) or [download for Linux](https://invoicegstpro.technodweep.com/#download).**
